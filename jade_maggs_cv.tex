@@ -1,5 +1,5 @@
 \documentclass[10pt,a4paper]{article}
-\usepackage[latin1]{inputenc}
+\usepackage[utf8]{inputenc}
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{amssymb}
@@ -11,6 +11,11 @@
 \usepackage{hyperref}
 \hypersetup{colorlinks,citecolor=DeepPink4,linkcolor=DarkRed, urlcolor=DarkBlue}
 \usepackage{lastpage}
+\usepackage{enumitem} % to itemise with reduced spacing
+\usepackage{times}       % Times New Roman
+\usepackage{lastpage} % for defining last page
+\usepackage{hanging} % hanging indent for references
+\usepackage{hyperref} % for hyperlinks 
 
 \pagestyle{fancy} % Adds header bar 
 
@@ -35,16 +40,16 @@
 	
 \noindent
 {\Large \textbf{Dr Jade Quinton Maggs}}\\
-South African citizen with New Zealand permanent residency\\
+%South African citizen with New Zealand permanent residency\\
 {\small Auckland, New Zealand | +6421 056 0873 | \href{mailto:jademaggs@gmail.com}{jademaggs@gmail.com} |
-\href{http://www.linkedin.com/pub/jade-maggs/29/917/5a0}{LinkedIn} |
+\href{https://www.linkedin.com/in/jade-maggs-phd-5a091729/}{LinkedIn} |
 			\href{https://www.researchgate.net/profile/Jade_Maggs}{ResearchGate} | 
-			\href{https://www.scopus.com/authid/detail.uri?authorId=55250227800}{Scopus \textit{h}-index: 10} |
+			\href{https://www.scopus.com/authid/detail.uri?authorId=55250227800}{Scopus \textit{h}-index: 12} |
 			\href{https://github.com/jademaggs?tab=repositories}{GitHub}}\\
 \hrule
 \vspace{6pt}
 \noindent
-I am a Quantitative Fisheries Scientist with more than 10 years' working experience and a record of internationally collaborative research. Currently, I am working for the National Institute of Water and Atmospheric Research (NIWA) in Auckland with a focus on surveys to inform stock assessment. I manage projects that use creel surveys to collect catch and effort data in the New Zealand recreational boat-based fishery, primarily for inshore fin-fish and lobster. In 2017, I was awarded a PhD in fisheries science from Rhodes University in South Africa. I also have experience with data management and GIS, and I have lectured part-time at postgraduate level on fishery stock assessment and R programming. I am a highly organised individual and I excel at leading change. \\
+I am a Quantitative Fisheries Scientist with 15 years of experience and a strong track record in internationally collaborative research. I currently work in the Wild Fisheries Flagship Programme at Earth Sciences New Zealand (formerly NIWA), where I lead national boat ramp creel surveys of the recreational fishery. My focus is on inshore fin-fish and rock lobster fisheries. In 2017, I earned a PhD in Fisheries Science from Rhodes University in South Africa. My expertise also includes data management and GIS, and I have lectured part-time at postgraduate level on fishery stock assessment and R programming. I am a highly organised professional with a proven ability to lead change and drive innovation in fisheries science. \\
 %Previously, I held a Senior Analyst role with Fisheries New Zealand within the Fisheries Management department. Before that I held a Scientist role with the Oceanographic Research Institute in South Africa with a focus on monitoring marine recreational fisheries and marine protected areas. I have published quantitative fisheries research in international peer-reviewed journals. In 2017, I was awarded a PhD in fisheries science from Rhodes University in South Africa. I have also lectured part-time at postgraduate level on fishery stock assessment and R programming. I am a highly organised individual and I excel at leading change. 
 \hrule
 \vspace{6pt}
@@ -54,111 +59,98 @@ I am a Quantitative Fisheries Scientist with more than 10 years' working experie
 % EMPLOYMENT HISTORY
 % ------------------------------------------------------------------
 
-\noindent
-EMPLOYMENT HISTORY\\
-\\
-\begin{tabular}{p{20mm} l }
-Apr 2020 - 	& \href{https://www.niwa.co.nz/}{NATIONAL INSTITUTE OF WATER AND ATMOSPHERIC RESEARCH (NIWA)} - New Zealand \\[.3\normalbaselineskip]
-present	& \textbf{Group Manager - Modelling \&Recreational Fisheries}\\[.2\normalbaselineskip]
-			& - Leading recreational boat fishery surveys (creel, camera)\\[.2\normalbaselineskip]		
-			& - Fisheries Modelling (GLM, CPUE standardisation, harvest estimation)\\[.2\normalbaselineskip]	
-			& - Focus on inshore fin-fish and rock lobster fisheries\\[.2\normalbaselineskip]	
-			& - Fishery characterisation\\[.2\normalbaselineskip]	
-			& - Working group participation (Marine Amateur Fisheries, Inshore Fisheries Assessment)\\[.2\normalbaselineskip]	
-			& - Leading team of three staff (two scientists, one technician) and also project-specific teams\\[.2\normalbaselineskip]	
-			& - Using R Programming Language and QGIS\\[.2\normalbaselineskip]	
-			& - Leading implementation of electronic data acquisition and streamlining workflows\\[.2\normalbaselineskip]	
-			& - Selected for in-house Leadership Development Programme\\[.5\normalbaselineskip]	
-		& \textbf{Group Manager - Fisheries Data Services}\\[.2\normalbaselineskip]
-	           	& - Managed NIWA and Ministry for Primary Industries fisheries data (research and observer)\\[.2\normalbaselineskip]
-	           	& - Managed commercial rock lobster catch sampling project\\[.2\normalbaselineskip]
-   	           	& - Led development of data loading software and PostgreSQL databases\\[.2\normalbaselineskip]
-	           	& - Managed a team of six staff\\[.2\normalbaselineskip]
-			& - Used R programming language, PostgreSQL, Linux, QGIS, GitLab\\[.2\normalbaselineskip]
-			& - Established efficiencies and notable improvements in multiple workflows\\
+\section*{Professional Experience}
 
-\end{tabular}
-\\[.5\normalbaselineskip]
-\begin{tabular}{p{20mm} l }
-Jan 2019 - 	& \href{https://www.mpi.govt.nz/}{MINISTRY FOR PRIMARY INDUSTRIES (MPI)} - New Zealand \\
-Mar 2020   	& \textbf{Senior Analyst (Fisheries Management, Fisheries New Zealand)}\\[.2\normalbaselineskip]
-			& - Conceptualised a pathway to ecosystem-based fisheries management\\[.2\normalbaselineskip]
-     			& - Participated in Marine Protected Area (MPA) Science Advisory Group\\[.2\normalbaselineskip]
-			& - Fishery stakeholder engagement (MPA network proposed near commercial rock lobster fishery)\\
-\end{tabular}
-\\[.5\normalbaselineskip]
-\begin{tabular}{p{20mm}l}
-May 2006 - 	& \href{https://www.saambr.org.za/research/}{OCEANOGRAPHIC RESEARCH INSTITUTE} - South Africa \\
-Dec 2018   	& \textbf{Scientist}: Jun 2018 - Dec 2018\\[.2\normalbaselineskip]
- 		& \textbf{Assistant Scientist}: Aug 2011 - May 2018\\[.2\normalbaselineskip]
-		& \textbf{Senior Scientific Technician}: Jul 2008 - Jul 2011\\[.2\normalbaselineskip]
- 			& - Led recreational fisheries surveys (shore and boat) under government contract\\[.2\normalbaselineskip]
-			& - Fisheries modelling (GLM, CPUE standardisation, fish movement)\\[.2\normalbaselineskip]
-	            	& - Monitored relative abundance, movement and community composition of fishes in the Pondoland MPA\\[.2\normalbaselineskip]
-         			& - Postgraduate lecturing on stock assessment and R programming\\[.2\normalbaselineskip]
-			& -  Biological sampling of commercial fish species\\[.2\normalbaselineskip]
-		      	& - Developed and administered fisheries monitoring databases (PostgreSQL)\\[.2\normalbaselineskip]
-		      	& - Working Group participation (Linefish Scientific Working Group)\\[.2\normalbaselineskip]
-              		& - Team management (three staff)\\[.2\normalbaselineskip]
-			& - Report writing\\
-\end{tabular}
-\\[.5\normalbaselineskip]
-\begin{tabular}{p{20mm}l}
-	& \textbf{Scientific Technician}: May 2006 - Jun 2008\\[.2\normalbaselineskip]
-		& - Assessment of fish communities in the Bazaruto Archipelago - consultancy\\[.2\normalbaselineskip]
-		& - Managed and designed environmental monitoring databases\\[.2\normalbaselineskip]
-		& - Managed a research aquarium laboratory\\[.2\normalbaselineskip]
-		& - Developed coral husbandry and propagation facilities\\
-\end{tabular}
-\\[.5\normalbaselineskip]
-\begin{tabular}{p{20mm}l}
-Jul 2004 - 	& \href{https://www.saambr.org.za/ushaka-sea-world//}{USHAKA SEA WORLD} - South Africa\\[.2\normalbaselineskip]	
-Apr 2006   	& \textbf{Aquarist II}: Feb 2006 - Apr 2006\\[.2\normalbaselineskip]
-               	& \textbf{Aquarist I}: Feb 2005 - Jan 2006\\[.2\normalbaselineskip]
-               	& \textbf{Commercial Diver}: Jul 2004 - Jan 2005\\[.2\normalbaselineskip]
-	           	& - Showed an affinity for animal husbandry - promoted from Diver to Aquarist\\[.2\normalbaselineskip]
-		       	& - Maintained aquarium exhibits and cultures laboratory\\[.2\normalbaselineskip]
-		      	& - Developed fish breeding and coral propagation facilities\\[.2\normalbaselineskip]
-\end{tabular}
-\\
+
+
+\textbf{\href{https://earthsciences.nz/}{EARTH SCIENCES NEW ZEALAND}} \text{(formerly NIWA)} \\
+\text{Group Manager – Modelling \& Recreational Fisheries} \\
+\textit{Jan 2022 -- present}
+\begin{itemize}[itemsep=2pt, parsep=0pt]
+  \item Leading national boat ramp creel surveys of the recreational fishery (inshore fin-fish, rock lobster)
+  \item Fisheries Modelling (GLM, CPUE standardisation, harvest estimation)
+  \item Member of the Marine Amateur Fisheries and Inshore Fisheries Assessment working groups
+  \item Leading team of three staff (three scientists, one technician) and also project-specific teams
+  \item Using R, PostgreSQL, Linux, QGIS, GitLab
+  \item Leading implementation of electronic data acquisition and streamlining workflows
+  \item Selected for in-house Leadership Development Programme
+\end{itemize}
+
+
+
+\noindent \text{Group Manager – Fisheries Data Services} \\
+\textit{Apr 2020 -- Dec 2021}
+\begin{itemize}[itemsep=2pt, parsep=0pt]
+  \item Managed all fisheries data from research and observer programmes for NIWA and the Ministry for Primary Industries
+  \item Managed commercial rock lobster catch sampling project
+  \item Led development of data loading software and PostgreSQL databases
+  \item Managed a team of six staff
+  \item Used R, PostgreSQL, Linux, QGIS, GitLab
+  \item Delivered efficiencies and significant improvements across multiple workflows\\
+\end{itemize}
+
+
+
+\noindent \textbf{\href{https://www.mpi.govt.nz}{MINISTRY FOR PRIMARY INDUSTRIES}} \\
+\text{Senior Analyst – Fisheries Management} \\
+\textit{Jan 2019 -- Mar 2020}
+\begin{itemize}[itemsep=2pt, parsep=0pt]
+  \item Contributed to the development of ecosystem-based fisheries management approaches
+  \item Member of the Marine Protected Area (MPA) Science Advisory Group
+  \item Engaged with stakeholders on proposed MPA networks, including those affecting commercial rock lobster fisheries\\
+\end{itemize}
+
+
+
+\noindent \textbf{\href{https://saambr.org.za/oceanographic-research-institute-ori/}{OCEANOGRAPHIC RESEARCH INSITITUTE}} \text{(South Africa)} \\
+\text{Scientist} \textit{Jun 2018 -- Dec 2018} \\
+\text{Assistant Scientist} \textit{Aug 2011 -- May 2018} \\
+\text{Senior Scientific Technician}  \textit{Jul 2008 -- Jul 2011}\\
+\text{Scientific Technician} \textit{May 2006 -- Jun 2008}
+\begin{itemize}[itemsep=2pt, parsep=0pt]
+  \item Led recreational fisheries surveys (shore- and boat-based)
+  \item Fisheries modelling, including GLMs, CPUE standardisation, and fish movement analysis
+  \item Field surveys to monitored relative abundance, movement, and community composition of fishes
+  \item Delivered postgraduate lectures on fisheries stock assessment and R programming
+  \item Performed biological sampling of commercial fish species
+  \item Developed and administered fisheries monitoring databases using PostgreSQL
+  \item Member of the Linefish Scientific Working Group
+  \item Managed a team of three staff and a research aquarium laboratory\\
+\end{itemize}
+
+
+
+\noindent \textbf{\href{https://saambr.org.za/ushaka-sea-world//}{uSHAKA SEA WORLD}} \text{(South Africa)} \\
+\text{Aquarist II} \textit{Feb 2006 - Apr 2006}\\
+\text{Aquarist I} \textit{ Feb 2005 - Jan 2006}\\
+\text{Commercial Diver} \textit{Jul 2004 - Jan 2005}
+ \begin{itemize}[itemsep=2pt, parsep=0pt]
+   \item Showed an affinity for animal husbandry - promoted from Diver to Aquarist
+   \item Maintained aquarium exhibits and cultures laboratory
+   \item Developed fish breeding and coral propagation facilities
+\end{itemize}
+
+
 \hrule	
 \vspace{6pt}
 \noindent
 
-% ------------------------------------------------------------------
-% CURRENT PROJECTS
-% ------------------------------------------------------------------
-
-\noindent
-CURRENT PROJECTS
-	\begin{itemize}
-	\setlength\itemsep{0.05em}
-	\item Design for a longline survey to estimate the age structure of New Zealand h\a=apuku
-	\item Web camera monitoring of key marine amateur fisher access points
-	\item Monitoring of recreational harvest of rock lobsters in CRA 2
-	\item Monitoring the Kaik\a=oura and Motunau boat-based marine amateur fisheries using a bus route survey
-	\item Mortality rates of fish released by recreational fishers
-	\item Estimation of recreational harvest in shellfish fisheries
-	\item National mean fish weight survey
-	\end{itemize}
-\hrule	
-\vspace{6pt}
 
 % ------------------------------------------------------------------
 % ACADEMIC QUALIFICATIONS
 % ------------------------------------------------------------------
 
 \noindent
-ACADEMIC QUALIFICATIONS
-	\begin{itemize}
-		\setlength\itemsep{0.05em}
-		\item PhD (Fisheries Science) | Rhodes University, 2017
-		\begin{itemize}
-		\setlength\itemsep{0.05em}
-			\item Thesis title: Movement of coastal fishery species in southern Africa: research trends, characterisation of behaviours and a case study on fishery implications. Supervisor: Prof. Paul Cowley.
-		\end{itemize}
+\section*{Academic Qualifications}
+\begin{itemize}[itemsep=2pt, parsep=0pt]
+   \setlength\itemsep{0.05em}
+   \item PhD (Fisheries Science) | Rhodes University, 2017
+      \begin{itemize}[itemsep=2pt, parsep=0pt]
+	\setlength\itemsep{0.05em}
+	\item Thesis title: Movement of coastal fishery species in southern Africa: research trends, characterisation of behaviours and a case study on fishery implications. Supervisor: Prof. Paul Cowley.
+      \end{itemize}
 		\item MSc (Biology) | University of KwaZulu-Natal, 2011
-		\begin{itemize}
+		\begin{itemize}[itemsep=2pt, parsep=0pt]
 		\setlength\itemsep{0.05em}
 			\item Thesis title: Fish surveys in exploited and protected areas of the Pondoland Marine Protected Area with consideration of the impact of the MPA on coastal fisheries. Supervisors: Dr Bruce Mann \& Prof. Paul Cowley.
 		\end{itemize}
@@ -169,8 +161,8 @@ ACADEMIC QUALIFICATIONS
 \vspace{6pt}
 
 \noindent
-LECTURING EXPERIENCE
-	\begin{itemize}
+\section*{Lecturing Experience}
+	\begin{itemize}[itemsep=2pt, parsep=0pt]
 		\setlength\itemsep{0.05em}
 		\item Fishery stock assessment (University of KwaZulu-Natal, 2012-2018) - Postgraduate
 		\item Introduction to R Programming (2016, 2017) - Postgraduate
@@ -179,8 +171,8 @@ LECTURING EXPERIENCE
 \hrule
 \vspace{6pt}
 \noindent
-TECHNICAL SKILLS
-	\begin{itemize}
+\section*{Technical Skills}
+	\begin{itemize}[itemsep=2pt, parsep=0pt]
 		\setlength\itemsep{0.05em}
 		\item \textbf{Software}: R programming | GIT | Quantum GIS | Ubuntu Linux | Bash | \LaTeX\
 		\item \textbf{Statistics}: Maximum likelihood | Generalised linear modelling
@@ -194,8 +186,8 @@ TECHNICAL SKILLS
 \hrule
 \vspace{6pt}
 \noindent
-MODELLING COURSES ATTENDED
-	\begin{itemize}
+\section*{Technical Courses Attended}
+	\begin{itemize}[itemsep=2pt, parsep=0pt]
 		\setlength\itemsep{0.05em}
 		\item Zonation decision support software training (NIWA, Sep 2019)
 		\item Ecofish stock assessment interpretation (Dept. of Agriculture, Forestry and Fisheries, Apr 2017)
@@ -209,27 +201,27 @@ MODELLING COURSES ATTENDED
 \hrule
 \vspace{6pt}
 \noindent
-SHIP TIME
-	\begin{itemize}
-		\setlength\itemsep{0.05em}
-		\item RV Kaharoa, Cook Strait, Jul/Aug 2021 - 2 days - KAH2105 acoustic snapshot, trawling
-		\item FRV Africana, Natal Bight, Sep 2010 - 5 days - retrieve and deploy ADCPs
-		\item TB Davies, Thukela Banks, Apr 2008 - 3 days benthic grab sampling
-		\item Ocean Stroom, Thukela Banks, Aug 2005 - 1 day - relocate two bull sharks
-		\item Ocean Stroom, Illovo Banks, Aug 2004 - 1 day - specimen collection
-	\end{itemize}
-\hrule
-\vspace{6pt}
+%\section*{Ship Time}
+%	\begin{itemize}[itemsep=2pt, parsep=0pt]
+%		\setlength\itemsep{0.05em}
+%		\item RV Kaharoa, Cook Strait, Jul/Aug 2021 - 2 days - KAH2105 acoustic snapshot, trawling
+%		\item FRV Africana, Natal Bight, Sep 2010 - 5 days - retrieve and deploy ADCPs
+%		\item TB Davies, Thukela Banks, Apr 2008 - 3 days benthic grab sampling
+%		\item Ocean Stroom, Thukela Banks, Aug 2005 - 1 day - relocate two bull sharks
+%		\item Ocean Stroom, Illovo Banks, Aug 2004 - 1 day - specimen collection
+%	\end{itemize}
+%\hrule
+%\vspace{6pt}
 \noindent
-REFEREES
-\\
-\\
+\section*{Referees}
+
+
 \textbf{Mr Jonathan Moores} | Regional Manager | NIWA, Auckland (current manager)\\
 Contact:+64 27 233 7871 | \href{mailto:Jonathan.Moores@niwa.co.nz}{Jonathan.Moores@niwa.co.nz}\\
 \\
-\textbf{Dr Alison MacDiarmid} | Regional Manager | NIWA, Wellington\\
-Contact: +64 274 033 468 | \href{mailto:Alison.MacDiarmid@niwa.co.nz}{Alison.MacDiarmid@niwa.co.nz}\\
-\\
+%\textbf{Dr Alison MacDiarmid} | Regional Manager | NIWA, Wellington\\
+%Contact: +64 274 033 468 | \href{mailto:Alison.MacDiarmid@niwa.co.nz}{Alison.MacDiarmid@niwa.co.nz}\\
+%\\
 \textbf{Dr Richard Saunders} | Impact \& Engagement Officer | IMOS, Tasmania\\
 Contact: +61 483 350 831 | \href{mailto:Richard.Saunders@utas.edu.au}{Richard.Saunders@utas.edu.au}\\
 \\
@@ -246,97 +238,86 @@ Contact: +34 671 57 31 13 | \href{mailto:paul.debruyn@fao.org}{paul.debruyn@fao.
 \newpage
 \vspace{6pt}
 \noindent
-SELECTED PUBLICATIONS\\
+\section*{Publications}
+
+Career summary: 24 peer-reviewed journal articles, 21 working group presentations, 1 book section, 2 theses, 2 conference proceedings, 81 reports, 22 conference presentations, 2 posters, 16 popular articles\\ 
 \\
-Publication summary: 19 peer-reviewed journal articles, 1 book section, 2 theses, 2 conference proceedings, 76 unpublished reports, 18 oral presentations, 2 posters, 16 popular articles\\ 
-\\
-\textit{\textbf{Journal}}\\
-\noindent
-\underline{Maggs JQ}, Hartill BW, Evans O, Holdsworth J, Lumley T. in prep. Anatomical hooking location and capture depth lower survival probability in snapper \textit{Chrysophrys auratus} caught by recreational fishers. \textit{Fisheries Research}.\\ 
-\\
-Goetze J, Heithaus MR, MacNeil MA, [...], \underline{Maggs JQ}, [...]. in prep. Management diversity is the best approach for the conservation of reef sharks.\\
-\\
-Simpfendorfer CA, Heithaus MR, Heupel MR, [...], \underline{Maggs JQ}, [...], Chapman D. 2023. Widespread diversity deficits of coral reef sharks and rays. \textit{Science} 380: 1155-1160.\\
-\\
-Mann BQ, \underline{Maggs JQ}, Porter SN, Dalton WN. 2022. Monitoring the effects of spatial protection on the reef fish communities of the Pondoland Marine Protected Area, Eastern Cape Province, South Africa. \textit{African Journal of Marine Science} 44(2): 1-17.\\
-\\
-Dames V, Bernard ATF, Floros C, Mann B, Speed C, \underline{Maggs J}, Laing S, Meekan M, Olbers J. 2020. Zonation and reef size significantly influence fish population structure in an established marine protected area, iSimangaliso Wetland Park, South Africa. \textit{Ocean \& Coastal Management} 185: 105040.\\
-\\
-MacNeil MA, Chapman D, Heupel M, [...], \underline{Maggs JQ}. 2020. Global status and conservation potential of reef sharks. \textit{Nature} 583: 801-806.\\
-\\
-Dames V, Bernard A, Floros C, Mann B, Speed C, \underline{Maggs J}, Laing S, Meekan M, Olbers J. 2020. Zonation and reef size significantly influence fish population structure in an established marine protected area, iSimangaliso Wetland Park, South Africa. \textit{Ocean and Coastal Management} 185:105040.\\
-\\
-Heyns-Veale ER, Bernard ATF, G\"otz A, Mann BQ, \underline{Maggs JQ}, Smith MKS. 2019. Community-wide effects of protection reveal insights into marine protected area effectiveness for reef fish. \textit{Marine Ecology Progress Series} 620: 99-117.\\
-\\
-\underline{Maggs JQ}, Cowley PD, Porter SN, Childs AR. 2019. Should I stay or should I go? Intra-population variability in movement behaviour of wide-ranging and resident coastal fishes. \textit{Marine Ecology Progress Series} 619: 111-124.\\
-\\ 
-Murray TS, Cowley PD, Mann BQ, \underline{Maggs JQ}, Gouws G. 2019. Movement patterns of an endemic South African sparid, the black musselcracker \textit{Cymatoceps nasutus}, determined using mark-recapture methods. \textit{African Journal of Marine Science} 41(1): 71-81.\\
-\\  
-Mann BQ, Winker H, \underline{Maggs JQ}, Porter S. 2016. Monitoring the recovery of a previously exploited surf-zone fish community in the St Lucia Marine Reserve, South Africa, using a no-take sanctuary area as a benchmark. \textit{African Journal of Marine Science} 38(3): 423-441.\\
-\\
-\underline{Maggs JQ}, Cowley PD. 2016. Nine decades of fish movement research in southern Africa: a synthesis of research and findings from 1928 to 2014. \textit{Reviews in Fish Biology and Fisheries} 26(3): 287-302.\\
-\\
-\underline{Maggs JQ}, Mann BQ, Potts WM, Dunlop SW. 2015. Traditional management strategies fail to arrest a decline in the CPUE of an iconic marine recreational fishery species with evidence of hyperstability. \textit{Fisheries Management and Ecology} 23(3-4): 187-199.\\
-\\
-Dunlop SW, Mann BQ, Cowley PD, Murray TS, \underline{Maggs JQ}. 2015. Movement patterns of \textit{Lichia amia} (Teleostei: Carangidae): results from a long-term cooperative tagging project in South Africa. \textit{African Journal of Zoology} 50(3): 249-257.\\
-\\
-Mann BQ, \underline{Maggs JQ}, Khumalo MC, Khumalo D, Parak O, Wood J, Bachoo S. 2015. KwaZulu-Natal Boat Launch Site Monitoring System: A novel approach for improved management of small vessels in the coastal zone. \textit{Ocean and Coastal Management} 104(2015): 57-64.\\
-\\
-Floros C, Schleyer MH, \underline{Maggs JQ}. 2013. Fish as indicators of diving and fishing pressure on high-latitude coral reefs. \textit{Ocean and Coastal Management} 84: 130-139.\\
-\\ 
-\underline{Maggs JQ}, Mann BQ, Cowley PD. 2013. Reef fish display station-keeping and ranging behaviour in the Pondoland Marine Protected Area on the east coast of South Africa. \textit{African Journal of Marine Science} 35(2): 183-193.\\
-\\
-\underline{Maggs JQ}, Mann BQ, Cowley PD. 2013. The contribution of a large no-take area to the management of four heavily exploited near-shore linefish species along the south-east African coast. \textit{Fisheries Research} 144(2013): 38-47.\\
-\\
-Floros C, Schleyer MH, \underline{Maggs JQ}, Celliers L. 2012. Baseline assessment of high-latitude coral reef fish communities in southern Africa. \textit{African Journal of Marine Science} 34(1): 55-69.\\
-\\
-\underline{Maggs JQ}, Mann BQ, van der Elst RP. 2012. Long-term trends in the management of the recreational shore-fishery for elf (\textit{Pomatomus saltatrix}: Pomatomidae) in KwaZulu-Natal, South Africa. \textit{African Journal of Marine Science} 34(3): 401-410.\\
-\\
-Mann BQ, Pradervand, P, \underline{Maggs JQ}, Wintner S. 2012. A characterisation of the paddle-ski fishery in KwaZulu-Natal, South Africa. \textit{African Journal of Marine Science} 34(1): 119-130.\\
-\\
-\underline{Maggs JQ}, Floros C, Pereira MAM, Schleyer MH. 2010. Rapid visual assessment of fish communities on selected reefs in the Bazaruto Archipelago. \textit{Western Indian Ocean Journal of Marine Science} 9(1): 115-134.\\	
-\\
-\textit{\textbf{Book section}}\\
-\underline{Maggs JQ}. 2014. Game fish migrations. In: Goble BJ, van der Elst RP and Oellerman LK (eds). Ugu Lwethu - Our coast: a profile of coastal KwaZulu-Natal. Department of Agriculture and Environmental Affairs and the Oceanographic Research Institute, Cedara, p87.\\
-\\
-\textit{\textbf{Selected reports}}\\
-\underline{Maggs JQ}, Hartill BW, Evans O, Holdsworth J, Lumley T, Stevens T. accepted. Mortality rates of snapper released by recreational fishers. \textit{New Zealand Fisheries Assessment Report 2023/xx}. xx p\\
-\\
-\underline{Maggs JQ}, Parsons D. 2023. Design for catch sampling programme to estimate the age structure of New Zealand h\a=apuku (\textit{Polyprion oxygeneios}). \textit{New Zealand Fisheries Assessment Report 2023/34}. 30 p\\
-\\
-\underline{Maggs JQ}, Davey NK, Hartill BW. 2023. Monitoring the Kaik\=oura and Motunau boat-based marine amateur fisheries for blue cod, sea perch and rock lobster, 2021-22. \textit{New Zealand Fisheries Assessment Report 2023/33}. 53 p\\
-\\
-\underline{Maggs JQ}. 2022. Bottom trawling by the vessel FV Chips in relation to the Napier Port Offshore Disposal Area. NIWA Client Report 2022199AK: 42.\\
-\\
-Schnabel KE, Mills VS, Tracey DM, Macpherson D, Kelly M, Peart RA, \underline{Maggs J}, Yeoman J, Wood CR. 2021. Identification of benthic invertebrate samples from research trawls and observer trips, 2020?21. Ministry for Primary Industries, Wellington: 51 pp (New Zealand Aquatic Environment and Biodiversity Report No. 269).\\
-\\
-\underline{Maggs J}, Parker D, Kerwath S, Attwood C, da Silva C, Winker H. 2017. The 2017 assessment of slinger (\textit{Chrysoblephus puniceus}) for the South African linefishery. Report of the Linefish Scientific Working Group, LSWG No. 01, 2017: 27 pp.\\
-\\
-\underline{Maggs JQ}, Mann BQ, Els M, Khumalo D. Mselegu X. 2017. National Marine Linefish System: KZN recreational fisheries monitoring data collection by Ezemvelo KZN Wildlife: 2016 Annual Report. Oceanographic Research Institute, Durban: 60pp. (ORI Unpublished Report 342).\\
-\\
-\underline{Maggs JQ} and Mann BQ. 2016. Pondoland Marine Protected Area: Ten years (2006-2016) of monitoring the effectiveness of the Pondoland MPA in protecting offshore reef-fish. Oceanographic Research Institute, Durban: 27 pp. (ORI Unpublished Report 329).\\
-\\
-\underline{Maggs JQ}, Dunlop SD, Mann BQ. 2012. National Marine Linefish System: A snapshot evaluation of recreational data collection by Ezemvelo KwaZulu-Natal Wildlife during 2009 and 2010 with recommendations for improvement. Oceanographic Research Institute, Durban: 39pp. (ORI Unpublished Report 296).\\
-\\
-%\underline{Maggs JQ}, Schleyer MH, Floros CD, Pereira MAM. 2008. Surveys of reef fish communities relative to recent seismic exploration in the Bazaruto %Archipelago on behalf of Sasol in 2007. Oceanographic Research Institute, Durban: 9p. (ORI Unpublished Report 256).\\
-%\\
-%\underline{Maggs JQ}, Schleyer MH, Videira E. 2007. Ichthyofauna of the Bazaruto Archipelago: A preliminary study. Oceanographic Research Institute, Durban: %13p including appendices. (ORI Unpublished Report 245).\\
-%\\
-\textit{\textbf{Selected oral presentations}}\\
-Freeman D, Ford R, Funnell G, Geange S, \underline{Maggs J}, Nutsford C, Riding T, Sharp B, Tellier P, Tunley KL. 2019. Building an information base for science-based marine protection. New Zealand Marine Sciences Society Conference, 2-5 July 2019, Dunedin, New Zealand. Oral presentation.\\
-\\
-\underline{Maggs JQ}, Cowley PD, Porter SN, Mann BQ. 2017. From resident to migrant: an empirical classification of coastal fish movement in South Africa. South African Marine Science Symposium, 4-7 July 2017, Boardwalk Convention Centre, Port Elizabeth, South Africa. Oral presentation.\\
-\\
-\underline{Maggs JQ}, Cowley PD. 2015. Tracking movement of important marine and estuarine fish species in South Africa: a synthesis of research and findings. 9th WIOMSA Scientific Symposium, 26-31 October 2015, Wild Coast Sun Resort, Eastern Cape, South Africa. Oral presentation.\\
-\\
-\underline{Maggs JQ}, Mann BQ, Potts WM, Dunlop SW. 2014. Long-term declines in CPUE of an iconic recreational species along the South African east coast. 15th Southern African Marine Science Symposium, 15-18 July 2014, Stellenbosch. Oral presentation.\\
-\\
-\underline{Maggs JQ}, Mann BQ, Cowley PD. 2012. Pondoland Marine Protected Area: indirect effects of protection on the wider fish community. Symposium of Contemporary Conservation Practice, Fern Hill, Pietermaritzburg, 22-26 October 2012. Oral presentation.\\
-\\
-\underline{Maggs JQ}, Mann BQ. 2012. National Marine Linefish System: Collecting catch and effort data in KwaZulu-Natal. Cape Nature MPAs, Islands and Estuaries Forum, 14 June 2012. Oral presentation.\\ 
-\\
-\underline{Maggs JQ}, Mann BQ, Cowley PD. 2012. Fish movements in the Pondoland Marine Protected Area: balancing conservation and fisheries enhancement. The 4th Line-fish Symposium, Geelbek, Langebaan, 16-20 April 2012. Oral presentation.\\
-\\
-\underline{Maggs JQ}, Mann BQ, Cowley PD. 2011. Rebuilding depleted line-fish stocks in the Pondoland Marine Protected Area and adjacent fisheries. The 14th South African Marine Science Symposium, 4-7 April 2011, Rhodes University, Grahamstown. Oral Presentation.
+\textit{\textbf{Selected publications - chronologically}}\\
+
+\begin{hangparas}{1.5em}{1}
+
+\underline{Maggs JQ}, Holdsworth JC, Curtis S, Evans OE, Bodie CEH, Madden BK. \textit{in prep}. Estimating release mortality in New Zealand’s largest recreational fishery. \textit{Fisheries Management and Ecology}.
+
+Martinez S, Bernard ATF, Speed CW, Mann BQ, Olbers JM, \underline{ Maggs JQ}, Floros C, Meekan MG, Yon A. 2024. Elasmobranch assemblage structure on protected high-latitude coral reefs of southeast Africa. \textit{Marine Ecology Progress Series} 749: 87-107. \url{https://doi.org/10.3354/meps14717}
+
+Smallwood CB, Ryan KL, Flanagan EA,\underline{ Maggs JQ}, Ochwada-Doyle FA, Tracey SR. 2024. Spiny lobster recreational fisheries in Australia and New Zealand: An overview of regulations, monitoring, assessment and management. \textit{Fisheries Research} 280: 107149. \url{https://doi.org/10.1016/j.fishres.2024.107149}
+
+Goetze J, Heithaus MR, MacNeil MA, [...], \underline{Maggs JQ}, [...].2024. Directed conservation of the world’s reef sharks and rays. \textit{Nature Ecology \& Evolution} 8: 1118-1128. \url{https://doi.org/10.1038/s41559-024-02386-9}
+
+\underline{Maggs JQ},  Evans O, Holdsworth JC, Lumley T, Hartill BW. 2024. Post-release mortality of line-caught snapper \textit{Chrysophrys auratus} depends on hook site and capture depth. \textit{Fisheries Management and Ecology} 31(4): e12702. \url{https://doi.org/10.1111/fme.12702}
+
+Johnson KS, \underline{Maggs JQ}, Taylor R, Evans OE, Armiger H. 2024. Estimation of recreational harvest of red and packhorse rock lobster in the CRA 1 area (2022-23). \textit{New Zealand Fisheries Assessment Report} 2024/54. 21 p. \url{https://fs.fish.govt.nz/Page.aspx?pk=113&dk=25792}
+
+\underline{Maggs JQ}, Evans OE, Taylor R, Armiger H, Marsh C, Hartill BW. 2024. Monitoring of recreational harvest of red rock lobster \textit{Jasus edwardsii} in CRA 2. \textit{New Zealand Fisheries Assessment Report}  2024/52. 41 p. \url{https://fs.fish.govt.nz/Page.aspx?pk=113&dk=25801}
+
+\underline{Maggs JQ}, Armiger H, Evans O, Taylor R, Davey N, Payne G, Miller A, Spong K, Parkinson D, Bian R, Hartill BW. 2024. Trends in recreational boat effort and harvest from 2004-05 to 2022-23. \textit{New Zealand Fisheries Assessment Report} 2024/53. 60 p. \url{https://fs.fish.govt.nz/Page.aspx?pk=113&dk=25806}
+
+Davey NK, Johnson KS, \underline{Maggs JQ}. 2024. Mean weight estimates for recreational fisheries in 2022-23. \textit{New Zealand Fisheries Assessment Report} 2024/28. 39 p. \url{https://fs.fish.govt.nz/Page.aspx?pk=113&dk=25758}
+
+\underline{Maggs JQ}, Parsons D. 2023. Design for catch sampling programme to estimate the age structure of New Zealand h\a=apuku (\textit{Polyprion oxygeneios}). \textit{New Zealand Fisheries Assessment Report 2023/34}. 30 p. \url{https://fs.fish.govt.nz/Page.aspx?pk=113&dk=25522}
+
+\underline{Maggs JQ}, Davey NK, Hartill BW. 2023. Monitoring the Kaik\=oura and Motunau boat-based marine amateur fisheries for blue cod, sea perch and rock lobster, 2021-22. \textit{New Zealand Fisheries Assessment Report 2023/33}. 53 p \url{https://fs.fish.govt.nz/Page.aspx?pk=113&dk=25548}
+
+Simpfendorfer CA, Heithaus MR, Heupel MR, [...], \underline{Maggs JQ}, [...], Chapman D. 2023. Widespread diversity deficits of coral reef sharks and rays. \textit{Science} 380: 1155-1160. \url{https://doi.org/10.1126/science.ade4884}
+
+Mann BQ, \underline{Maggs JQ}, Porter SN, Dalton WN. 2022. Monitoring the effects of spatial protection on the reef fish communities of the Pondoland Marine Protected Area, Eastern Cape Province, South Africa. \textit{African Journal of Marine Science} 44(2): 1-17. \url{https://doi.org/10.2989/1814232X.2022.2047782}
+
+Dames V, Bernard ATF, Floros C, Mann B, Speed C, \underline{Maggs J}, Laing S, Meekan M, Olbers J. 2020. Zonation and reef size significantly influence fish population structure in an established marine protected area, iSimangaliso Wetland Park, South Africa. \textit{Ocean \& Coastal Management} 185: 105040.\url{https://doi.org/10.1016/j.ocecoaman.2019.105040}
+
+MacNeil MA, Chapman D, Heupel M, [...], \underline{Maggs JQ}. 2020. Global status and conservation potential of reef sharks. \textit{Nature} 583: 801-806. \url{https://doi.org/10.1038/s41586-020-2519-y}
+
+Murray TS, Cowley PD, Mann BQ, \underline{Maggs JQ}, Gouws G. 2019. Movement patterns of an endemic South African sparid, the black musselcracker \textit{Cymatoceps nasutus}, determined using mark-recapture methods. \textit{African Journal of Marine Science} 41(1): 71-81. \url{http://dx.doi.org/10.2989/1814232X.2019.1574238}
+
+\underline{Maggs JQ}, Cowley PD, Porter SN, Childs AR. 2019. Should I stay or should I go? Intra-population variability in movement behaviour of wide-ranging and resident coastal fishes. \textit{Marine Ecology Progress Series} 619: 111-124. \url{https://doi.org/10.3354/meps12953}
+
+Heyns-Veale ER, Bernard ATF, G\"otz A, Mann BQ, \underline{Maggs JQ}, Smith MKS. 2019. Community-wide effects of protection reveal insights into marine protected area effectiveness for reef fish. \textit{Marine Ecology Progress Series} 620: 99-117. \url{http://dx.doi.org/10.3354/meps12970}
+
+\underline{Maggs J}, Parker D, Kerwath S, Attwood C, da Silva C, Winker H. 2017. The 2017 assessment of slinger (\textit{Chrysoblephus puniceus}) for the South African linefishery. Report of the Linefish Scientific Working Group, LSWG No. 01, 2017: 27 pp.
+
+\underline{Maggs JQ}, Mann BQ, Potts WM, Dunlop SW. 2015. Traditional management strategies fail to arrest a decline in the CPUE of an iconic marine recreational fishery species with evidence of hyperstability. \textit{Fisheries Management and Ecology} 23(3-4): 187-199. \url{http://dx.doi.org/10.1111/fme.12125}
+
+\underline{Maggs JQ}, Cowley PD. 2016. Nine decades of fish movement research in southern Africa: a synthesis of research and findings from 1928 to 2014. \textit{Reviews in Fish Biology and Fisheries} 26(3): 287-302. \url{https://doi.org/10.1007/s11160-016-9425-2}
+
+Mann BQ, Winker H, \underline{Maggs JQ}, Porter S. 2016. Monitoring the recovery of a previously exploited surf-zone fish community in the St Lucia Marine Reserve, South Africa, using a no-take sanctuary area as a benchmark. \textit{African Journal of Marine Science} 38(3): 423-441. \url{https://doi.org/10.2989/1814232X.2016.1224779}
+
+Mann BQ, \underline{Maggs JQ}, Khumalo MC, Khumalo D, Parak O, Wood J, Bachoo S. 2015. KwaZulu-Natal Boat Launch Site Monitoring System: A novel approach for improved management of small vessels in the coastal zone. \textit{Ocean and Coastal Management} 104(2015): 57-64. \url{https://doi.org/10.1016/j.ocecoaman.2014.12.003}
+
+Dunlop SW, Mann BQ, Cowley PD, Murray TS, \underline{Maggs JQ}. 2015. Movement patterns of \textit{Lichia amia} (Teleostei: Carangidae): results from a long-term cooperative tagging project in South Africa. \textit{African Journal of Zoology} 50(3): 249-257. \url{http://dx.doi.org/10.1080/15627020.2015.1058724}
+
+\underline{Maggs JQ}, Mann BQ, Cowley PD. 2013. The contribution of a large no-take area to the management of four heavily exploited near-shore linefish species along the south-east African coast. \textit{Fisheries Research} 144(2013): 38-47. \url{https://doi.org/10.1016/j.fishres.2012.10.003}
+
+\underline{Maggs JQ}, Mann BQ, Cowley PD. 2013. Reef fish display station-keeping and ranging behaviour in the Pondoland Marine Protected Area on the east coast of South Africa. \textit{African Journal of Marine Science} 35(2): 183-193. \url{https://doi.org/10.2989/1814232X.2013.798152}
+
+Floros C, Schleyer MH, \underline{Maggs JQ}. 2013. Fish as indicators of diving and fishing pressure on high-latitude coral reefs. \textit{Ocean and Coastal Management} 84: 130-139. \url{https://doi.org/10.1016/j.ocecoaman.2013.08.005}
+
+\underline{Maggs JQ}, Mann BQ, van der Elst RP. 2012. Long-term trends in the management of the recreational shore-fishery for elf (\textit{Pomatomus saltatrix}: Pomatomidae) in KwaZulu-Natal, South Africa. \textit{African Journal of Marine Science} 34(3): 401-410. \url{http://dx.doi.org/10.2989/1814232X.2012.709959}
+
+Mann BQ, Pradervand, P, \underline{Maggs JQ}, Wintner S. 2012. A characterisation of the paddle-ski fishery in KwaZulu-Natal, South Africa. \textit{African Journal of Marine Science} 34(1): 119-130. \url{https://doi.org/10.2989/1814232X.2012.675120}
+
+Floros C, Schleyer MH, \underline{Maggs JQ}, Celliers L. 2012. Baseline assessment of high-latitude coral reef fish communities in southern Africa. \textit{African Journal of Marine Science} 34(1): 55-69. \url{http://dx.doi.org/10.2989/1814232X.2012.673284}
+
+\underline{Maggs JQ}, Floros C, Pereira MAM, Schleyer MH. 2010. Rapid visual assessment of fish communities on selected reefs in the Bazaruto Archipelago. \textit{Western Indian Ocean Journal of Marine Science} 9(1): 115-134.\
+
+\underline{Maggs JQ}. 2014. Game fish migrations. In: Goble BJ, van der Elst RP and Oellerman LK (eds). Ugu Lwethu - Our coast: a profile of coastal KwaZulu-Natal. Department of Agriculture and Environmental Affairs and the Oceanographic Research Institute, Cedara, p87.
+
+\underline{Maggs JQ}. 2022. Bottom trawling by the vessel FV Chips in relation to the Napier Port Offshore Disposal Area. NIWA Client Report 2022199AK: 42.
+
+\underline{Maggs JQ}, Mann BQ, Els M, Khumalo D. Mselegu X. 2017. National Marine Linefish System: KZN recreational fisheries monitoring data collection by Ezemvelo KZN Wildlife: 2016 Annual Report. Oceanographic Research Institute, Durban: 60pp. (ORI Unpublished Report 342).
+
+\underline{Maggs JQ},  Mann BQ. 2016. Pondoland Marine Protected Area: Ten years (2006-2016) of monitoring the effectiveness of the Pondoland MPA in protecting offshore reef-fish. Oceanographic Research Institute, Durban: 27 pp. (ORI Unpublished Report 329).
+
+\underline{Maggs JQ}, Dunlop SD, Mann BQ. 2012. National Marine Linefish System: A snapshot evaluation of recreational data collection by Ezemvelo KwaZulu-Natal Wildlife during 2009 and 2010 with recommendations for improvement. Oceanographic Research Institute, Durban: 39pp. (ORI Unpublished Report 296).
+
+\end{hangparas}
 \end{document}
 
